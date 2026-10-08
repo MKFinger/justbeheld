@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="500" viewBox="0 0 660 500">
+  <defs>
+    <linearGradient id="brass" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#d8b975"/><stop offset=".35" stop-color="#ba9150"/><stop offset=".66" stop-color="#94723f"/><stop offset="1" stop-color="#ddc18c"/></linearGradient>
+    <linearGradient id="inside" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#635036"/><stop offset=".65" stop-color="#a2854e"/><stop offset="1" stop-color="#c9ad71"/></linearGradient>
+    <linearGradient id="wood"><stop stop-color="#a56e48"/><stop offset=".45" stop-color="#d1a77d"/><stop offset="1" stop-color="#815c3e"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#efddb2" stop-opacity=".75"/><stop offset="1" stop-color="#efddb2" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-.5" y="-1" width="2" height="3"><feGaussianBlur stdDeviation="13"/></filter>
+    <filter id="texture"><feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".12"/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+  </defs>
+  <ellipse cx="322" cy="377" rx="161" ry="16" fill="#675038" opacity=".16" filter="url(#shadow)"/>
+  <g transform="rotate(-29 447 184)"><rect x="420" y="84" width="28" height="193" rx="13" fill="url(#wood)"/><path d="M426 110v131M441 112v121" stroke="#7d573b" stroke-width="1" opacity=".28"/><rect x="418" y="75" width="32" height="75" rx="12" fill="#3f3930"/><path d="M422 84v49M429 79v59M437 79v59M444 84v49" stroke="#847160" opacity=".35"/></g>
+  <path d="M128 233C129 314 172 363 308 364C438 364 492 316 495 233Z" fill="url(#brass)" filter="url(#texture)"/>
+  <path d="M151 287C194 335 408 347 471 283" stroke="#e4c992" stroke-width="2" fill="none" opacity=".52"/>
+  <path d="M167 314C227 348 384 351 448 314" stroke="#755d39" stroke-width="1.5" fill="none" opacity=".5"/>
+  <ellipse cx="311.5" cy="233" rx="184" ry="66" fill="#cdb076"/>
+  <ellipse cx="311.5" cy="233" rx="172" ry="56" fill="url(#inside)"/>
+  <ellipse cx="310" cy="249" rx="106" ry="31" fill="url(#light)"/>
+  <ellipse cx="311.5" cy="233" rx="184" ry="66" stroke="#dcca98" stroke-width="3" fill="none"/>
+  <ellipse cx="311.5" cy="233" rx="177" ry="61" stroke="#866c42" stroke-width="1" fill="none"/>
+  <path d="M158 259C234 294 413 293 466 252" stroke="#f0daac" stroke-width="1.5" fill="none" opacity=".65"/>
+  <g fill="none" stroke="#705638" stroke-width="1.2" opacity=".3"><path d="M238 317c5-8 12-8 16 0s10 8 15 0 11-8 16 0 11 8 16 0 11-8 16 0 11 8 16 0 11-8 16 0 11 8 16 0 11-8 16 0"/><path d="M216 325c57 22 126 25 180 1"/></g>
+</svg>
